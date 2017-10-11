@@ -10,6 +10,8 @@
   
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.7</maven.compiler.source>
+     <maven.compiler.target>1.7</maven.compiler.target>
   
   </properties>
   
@@ -20,7 +22,7 @@
       <version>4.12</version>
       <scope>test</scope>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/joda-time/joda-time -->
+   
 <dependency>
     <groupId>joda-time</groupId>
     <artifactId>joda-time</artifactId>
@@ -31,13 +33,6 @@
   </dependencies>
  
   
-	  <distributionManagement> 
-    <repository>
-        <id>maven_repo</id>
-        <url>file:///C:/Users/JaroslawJ/Dropbox/Public/maven_repo</url>
-    </repository>
-</distributionManagement>
-   
 
 	
 </project>
